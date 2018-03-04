@@ -16,7 +16,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-
+[image2]: ./test_image_output/input_image.jpg "input image"
 ---
 
 ### Reflection
@@ -26,19 +26,20 @@ The goals / steps of this project are the following:
 My pipeline consisted of 5 steps:
 * converte the images to grayscale
 * apply a gaussian filter to remove noise
-Step 3: apply canny edge detector to detect edges
-Step 4: apply a mask to preserve only edges that are infront of the car
-Step 5: find lines using hough transform
-Step 6: seperate left lane(assume a slop within [0.5, 2]) and right lanes(assume a slop within [-2,-0.5]), and do an average to get the less noisy left and right lane
-Step 7: draw the lines on the image
+* apply canny edge detector to detect edges
+* apply a mask to preserve only edges that are infront of the car
+* find lines using hough transform
+* seperate left lane(assume a slop within [0.5, 2]) and right lanes(assume a slop within [-2,-0.5]), and do an average to get the less noisy left and right lane
+* draw the lines on the image
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by the following method:
 seperate the left lane(assume a slop within [0.5, 2]) and right lanes(assume a slop within [-2,-0.5]), 
 and do an average on the slop and offset of the lines, to get the less noisy left and right lane
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
+
+Here are the images for each step: 
 
 ![alt text][image1]
-
+![alt text][image2]
 
 ### 2. Identify potential shortcomings with your current pipeline
 
