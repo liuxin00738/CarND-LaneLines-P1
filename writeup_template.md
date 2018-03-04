@@ -24,8 +24,8 @@ The goals / steps of this project are the following:
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
 My pipeline consisted of 5 steps:
-Step 1: converte the images to grayscale
-Step 2: apply a gaussian filter to remove noise
+* converte the images to grayscale
+* apply a gaussian filter to remove noise
 Step 3: apply canny edge detector to detect edges
 Step 4: apply a mask to preserve only edges that are infront of the car
 Step 5: find lines using hough transform
