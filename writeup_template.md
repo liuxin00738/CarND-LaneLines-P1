@@ -18,11 +18,11 @@ The goals / steps of this project are the following:
 
 [image2]: ./test_image_output/input_img.jpg "input_img"
 
-[image3]: ./test_image_output/gray_or_blue.jpg "gray_or_blue"
+[image3]: ./test_image_output/gray_or_blue_img.jpg "gray_or_blue"
 
 [image4]: ./test_image_output/edge_img.jpg "edge_img"
 
-[image5]: ./test_image_output/marked_edge_img.jpg "marked_edge_img"
+[image5]: ./test_image_output/maked_edge_img.jpg "marked_edge_img"
 
 [image6]: ./test_image_output/lines_img.jpg "lines_img"
 
