@@ -39,7 +39,7 @@ and do an average on the slop and offset of the lines, to get the less noisy lef
 Here are the images for each step: 
 
 ![alt text][image1]
-![alt text][image2]
+[image2]
 
 ### 2. Identify potential shortcomings with your current pipeline
 
