@@ -16,6 +16,8 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
+[image2]: ./test_image_output/input_img.jpg "Input"
+
 ---
 
 ### Reflection
@@ -39,6 +41,7 @@ Here are the images for each step:
 
 ![alt text][image1]
 
+![alt text][image2]
 ### 2. Identify potential shortcomings with your current pipeline
 
 
