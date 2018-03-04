@@ -16,15 +16,15 @@ The goals / steps of this project are the following:
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
 
-[image2]: ./test_image_output/input_img.jpg "input"
+[image2]: ./test_image_output/input_img.jpg "input_img"
 
-[image3]: ./test_image_output/gray_or_blue.jpg "blue_channel"
+[image3]: ./test_image_output/gray_or_blue.jpg "gray_or_blue"
 
-[image4]: ./test_image_output/edge_img.jpg "edge"
+[image4]: ./test_image_output/edge_img.jpg "edge_img"
 
-[image5]: ./test_image_output/marked_edge_img.jpg "masked_edge"
+[image5]: ./test_image_output/marked_edge_img.jpg "marked_edge_img"
 
-[image6]: ./test_image_output/lines_img.jpg "lines"
+[image6]: ./test_image_output/lines_img.jpg "lines_img"
 
 [image7]: ./test_image_output/result.jpg "result"
 
@@ -48,20 +48,24 @@ seperate the left lane(assume a slop within [0.5, 2]) and right lanes(assume a s
 and do an average on the slop and offset of the lines, to get the less noisy left and right lane
 
 Here are the images for each step: 
-
-![alt text][image1]
-
 ![alt text][image2]
+input image
 
 ![alt text][image3]
+blue channel of the image
 
 ![alt text][image4]
+edges
 
 ![alt text][image5]
+edges after mask
 
 ![alt text][image6]
+lines
 
 ![alt text][image7]
+result
+
 ### 2. Identify potential shortcomings with your current pipeline
 
 
