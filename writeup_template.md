@@ -16,7 +16,6 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
-[image2]: ./test_image_output/input_image.jpg "input image"
 ---
 
 ### Reflection
@@ -39,7 +38,6 @@ and do an average on the slop and offset of the lines, to get the less noisy lef
 Here are the images for each step: 
 
 ![alt text][image1]
-[image2]
 
 ### 2. Identify potential shortcomings with your current pipeline
 
