@@ -69,13 +69,11 @@ result
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when ... 
+One potential shortcoming would be that this method depends a lot on the threshold of the canny edge detectors. When the light condition changes, it might fail to detect the edges.
 
-Another shortcoming could be ...
+Another shortcoming could be that for now, I am assuming the slop within [0.5, 2] to get ride of the lines that are irrelevant. However, this might not be the case since the  car might be turning so the slop would change.
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement would be to make the threshold adaptive. Or, using machine learning.
