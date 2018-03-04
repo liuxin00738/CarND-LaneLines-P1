@@ -23,10 +23,18 @@ The goals / steps of this project are the following:
 
 ### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
 
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
+My pipeline consisted of 5 steps:
+Step 1: converte the images to grayscale
+Step 2: apply a gaussian filter to remove noise
+Step 3: apply canny edge detector to detect edges
+Step 4: apply a mask to preserve only edges that are infront of the car
+Step 5: find lines using hough transform
+Step 6: seperate left lane(assume a slop within [0.5, 2]) and right lanes(assume a slop within [-2,-0.5]), and do an average to get the less noisy left and right lane
+Step 7: draw the lines on the image
 
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
+In order to draw a single line on the left and right lanes, I modified the draw_lines() function by the following method:
+seperate the left lane(assume a slop within [0.5, 2]) and right lanes(assume a slop within [-2,-0.5]), 
+and do an average on the slop and offset of the lines, to get the less noisy left and right lane
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
 ![alt text][image1]
